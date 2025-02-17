@@ -22,12 +22,12 @@ const appRouter = createBrowserRouter([
     element: <Login />
   },
   {
-    path: '/',
-    element: <Home />
-  },
-  {
     path: '/signup',
     element: <Signup />
+  },
+  {
+    path: '/',
+    element: <Home />
   },
   {
     path: "/jobs",
