@@ -18,12 +18,12 @@ import ProtectedRoute from './components/admin/ProtectedRoute'
 
 const appRouter = createBrowserRouter([
   {
-    path: '/',
-    element: <Home />
-  },
-  {
     path: '/login',
     element: <Login />
+  },
+  {
+    path: '/',
+    element: <Home />
   },
   {
     path: '/signup',
